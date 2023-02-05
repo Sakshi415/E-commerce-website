@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+    {% load static %}
+
+    <h1> 
+    	Sorry for the inconvinience
+
+    The request for netbanking and debit card  purchase are stopped for few reasons   so please try  cash on delivery method  hope we will be back soon  </h1>
+
+    <a href="{% url 'order:fill_address' %}">GO BACK</a>
+
+ {% endblock %}
